@@ -1,0 +1,33 @@
+About
+=====
+
+This example is based as closely as possible on the other newsfeed one,
+which was for Google AppEngine.
+
+Before You Start
+----------------
+
+Make sure you have set the 'Site URL' under 'Website' in your applications
+settings in Facebook or you won't be able to do anything.
+
+Also, do a setup.py install on the python-sdk of course.
+
+You can then copy this newsfeed_django example module into your project.
+
+Django Config
+-------------
+
+You need to set the following vars in your settings.py file:
+FACEBOOK_APP_ID = "..."
+FACEBOOK_APP_SECRET = "..."
+
+To quickly get things running you also need to add the absolute path to
+yourproject/newsfeed_django/templates as an item in your TEMPLATE_DIRS list in
+settings.py
+
+To Do Later
+-----------
+
+You probably want to move the contents of static/ into your regular media
+serving directory and adjust the urls in the templates accordingly.
+
