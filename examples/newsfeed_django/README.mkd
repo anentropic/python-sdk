@@ -18,9 +18,14 @@ Django Config
 -------------
 
 You need to set the following vars in your settings.py file:
+<<<<<<< HEAD
 
     FACEBOOK_APP_ID = "..."
     FACEBOOK_APP_SECRET = "..."
+=======
+FACEBOOK_APP_ID = "..."
+FACEBOOK_APP_SECRET = "..."
+>>>>>>> 0ef61bb659765e5794df5c7851bbac646f622d10
 
 To quickly get things running you also need to add the absolute path to
 yourproject/newsfeed_django/templates as an item in your TEMPLATE_DIRS list in
