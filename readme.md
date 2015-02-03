@@ -1,3 +1,11 @@
+OUT OF DATE FORK
+================
+
+Do not use. Go here for current version: https://github.com/pythonforfacebook/facebook-sdk
+
+This fork just adds a Django app to the examples folder. Will be for an old version of Django.
+
+
 Facebook Python SDK
 ====
 
